@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: bandeira
+  description: A squad mais querida
+spec:
+  type: squad # campo obrigatório, mas aberto. Fica a cargo da organização definir os possíveis valores para ele
+  profile:
+    displayName: Bandeira
+    email: bandeira@example.com
+    picture: https://en.wikipedia.org/wiki/Java_%28programming_language%29#/media/File:Java_programming_language_logo.svg
+  parent: ops
+  children: [] # obrigatório, mas pode ser uma lista vazia
+  members: [jdoe] # não obrigatório
