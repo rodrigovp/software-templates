@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: public-apis
+  description: Catálogo de APIs Públicas
+spec:
+  type: openapi
+  lifecycle: production
+  owner: marketplace
+  definition: |
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: Public APIs
+    servers:
+      - url: http://localhost:8080
+    paths:
+      /apispublicas:
+        get:
+          summary: exibe uma lista de diversas APIs públicas
