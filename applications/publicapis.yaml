@@ -13,8 +13,8 @@ spec:
       version: 1.0.0
       title: Public APIs
     servers:
-      - url: http://localhost:8080
+      - url: https://api.publicapis.org/
     paths:
-      /apispublicas:
+      /entries:
         get:
           summary: exibe uma lista de diversas APIs públicas
