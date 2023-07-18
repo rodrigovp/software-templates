@@ -9,6 +9,6 @@ spec:
     displayName: Marketplace
     email: marketplace@example.com
     picture: https://en.wikipedia.org/wiki/Java_%28programming_language%29#/media/File:Java_programming_language_logo.svg
-  parent: ops
+  parent: empresa1
   children: [] # obrigatório, mas pode ser uma lista vazia
   members: [jdoe] # não obrigatório
