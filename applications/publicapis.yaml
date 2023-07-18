@@ -6,7 +6,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: API Pheny
+  owner: api-pheny
   definition: |
     openapi: "3.0.0"
     info:
