@@ -4,7 +4,7 @@ metadata:
   name: empresa1
   description: A empresa onde o patrão é você!
 spec:
-  type: empresa do grupo # campo obrigatório, mas aberto. Fica a cargo da organização definir os possíveis valores para ele
+  type: ecossistemavr # campo obrigatório, mas aberto. Fica a cargo da organização definir os possíveis valores para ele
   profile:
     displayName: Empresa 1
     email: empresa1@example.com
