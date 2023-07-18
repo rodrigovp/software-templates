@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: empresa1
+  description: A empresa onde o patrão é você!
+spec:
+  type: empresa do grupo # campo obrigatório, mas aberto. Fica a cargo da organização definir os possíveis valores para ele
+  profile:
+    displayName: Empresa 1
+    email: empresa1@example.com
+    picture: https://en.wikipedia.org/wiki/Java_%28programming_language%29#/media/File:Java_programming_language_logo.svg
+  children: [] # obrigatório, mas pode ser uma lista vazia
+  members: [jdoe] # não obrigatório
