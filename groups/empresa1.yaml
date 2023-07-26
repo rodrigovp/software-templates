@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: empresa1
-  description: A empresa onde o patrão é você!
+  description: A empresa onde o patrão é você!!!!!!
 spec:
   type: ecossistemavr # campo obrigatório, mas aberto. Fica a cargo da organização definir os possíveis valores para ele
   profile:
